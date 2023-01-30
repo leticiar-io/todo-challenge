@@ -1,0 +1,44 @@
+.container {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.formContainer {
+    display: flex;
+    gap: 8px;
+
+    margin-top: -1.75rem;
+}
+
+
+.formContainer input {
+    padding: 1rem;
+    background-color: var(--gray-500);
+    color: var(--white);
+    border: 0;
+
+    border-radius: 8px;
+    width: 39.875rem;
+}
+
+.formContainer button {
+    background-color: var(--blue-dark);
+    color: var(--white); 
+
+    gap: 8px;
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    padding: 1rem;
+    border: 0;
+    border-radius: 8px;
+    font-weight: bold;
+
+    transition: background 1s;
+}
+
+.formContainer button:hover {
+    background-color: var(--blue);
+}
