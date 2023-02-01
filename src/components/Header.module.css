@@ -10,3 +10,19 @@
     height: 3rem;
     width: auto;
 }
+
+@media(max-width: 768px) {
+    .header{
+        background-color: var(--gray-700);
+        height: 12.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 4.2rem;    
+    }
+    
+    .header img {
+        height: 3rem;
+        width: auto;
+    }
+}
