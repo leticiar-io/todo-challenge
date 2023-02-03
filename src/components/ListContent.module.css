@@ -61,7 +61,11 @@
   text-align: center;
 }
 
-
+.listItemsContainer{
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+}
 
 @media(max-width: 768px) {
     html {

@@ -25,7 +25,8 @@ export function ListContent() {
       </div>
 
       <main className={styles.listItemsContainer}>
-        <ListItem />
+        <ListItem isDone={false} content={"Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer."} />
+        <ListItem isDone={true} content={"Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer."} />
       </main>
     </div>
   );
