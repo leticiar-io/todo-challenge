@@ -61,31 +61,29 @@
   text-align: center;
 }
 
-.listItemsContainer{
+.listItemsContainer {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
 }
 
-@media(max-width: 768px) {
-    html {
-      font-size: 87.5%;
-    }
-    .container {
-        gap: 1.5rem;
-        width: 100%;
-    }
-      
-    .containerHeader {
-        padding: 0rem 2rem;
-        width: 100%;
-        margin-top: 8px;
-    }
-
-    .emptyList {
-        width: 100%;
-
-      
-        padding: 2rem;
-    }
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
   }
+  .container {
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .containerHeader {
+    padding: 0rem 2rem;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .emptyList {
+    width: 100%;
+
+    padding: 2rem;
+  }
+}

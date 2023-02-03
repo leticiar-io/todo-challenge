@@ -1,17 +1,12 @@
-.container {
-    justify-content: center;
-    align-items: flex-start;
-    display: flex;
-}
-
 .formContainer {
-    width: 46rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     gap: 8px;
 
     margin-top: -1.75rem;
 }
-
 
 .formContainer input {
     padding: 1rem;

@@ -1,5 +1,4 @@
 import { Header } from './components/Header';
-import { ListContent } from './components/ListContent';
 import { NewTask } from './components/NewTask';
 import "./global.css";
 
@@ -10,7 +9,6 @@ function App() {
       <Header />
 
       <NewTask />
-      <ListContent/>
     </div>
   )
 }
