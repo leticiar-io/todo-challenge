@@ -75,4 +75,16 @@
     cursor: pointer;
 }
 
-
+@media (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .toggle{
+        height: 1.4rem;
+        border-radius: 6rem;
+    }
+    .toggleSelected{
+        height: 1.4rem;
+        border-radius: 6rem;  
+    }
+}

@@ -86,4 +86,9 @@
 
     padding: 2rem;
   }
+
+  .listItemsContainer{
+    width: 100%;
+    padding: 2rem;
+  }
 }
