@@ -2,10 +2,10 @@
     justify-content: center;
     align-items: flex-start;
     display: flex;
-    width: 46rem;
 }
 
 .formContainer {
+    width: 46rem;
     display: flex;
     gap: 8px;
 
